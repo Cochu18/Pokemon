@@ -96,7 +96,7 @@ nav{
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-body{
+.body_FC{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
