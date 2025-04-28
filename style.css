@@ -5,13 +5,31 @@
 }
 
 #contenedor {
-    width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 body{
     padding-top: 100px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.pagina-principal {
+    display: flex;
+    flex-direction: column;
+}
+
+.pagina-flip #zona-central{
+    display: flex;
+}
+
+.paginaFlip{
+    background-color: aquamarine;
+    padding: 20px;
 }
 
 /* ------------------------------------- */
@@ -24,6 +42,7 @@ header {
     padding: 10px;
     background-color: aquamarine;
     text-align: center;
+    z-index: 1000;
 }
 
 header img{
@@ -90,6 +109,81 @@ nav{
 
 .nav li ul li:hover > ul {
     display: block;
+}
+
+/* ---------------------------- */
+
+.section_I {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding: 10px;
+    background-color: #f9f9f9;
+    min-height: 400px;
+}
+
+
+.h2_I {
+    font-size: 28px;
+    color: #333;
+}
+
+.noticia_I {
+    padding: 15px;
+    background-color: white;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.article_I h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+.article_I p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.5;
+}
+
+.footer_I {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+
+.aside_I {
+    width: 30%;
+    background-color: #d3f4ff;
+    padding: 20px;
+    min-height: 400px;
+}
+
+.aside_I h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.aside_I p {
+    font-size: 18px;
+    color: #555;
+}
+
+.section-footer_I {
+    clear: both;
+    width: 100%;
+    background-color: aquamarine;
+    padding: 15px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#zona-central {
+    display: flex;
+    flex: 1;
 }
 
 /* ---------------------------- */
@@ -216,14 +310,21 @@ input[type="text"]{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
-
 }
+
+.contenedorCard{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
 .card{
     position: relative;
     width: 300px;
     height: 350px;
     margin: 20px;
 }
+
 .card .face{
     position: absolute;
     width: 100%;
