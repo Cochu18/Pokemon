@@ -1,24 +1,28 @@
 *{
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
-body{
+.body_C{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
     background-color: aqua;
 }
 
-.contenedor_c{
-    width: 100%;
+.contenedor_C{
+    width: 75%;
     padding: 15px;
+    align-items: center;
+    margin-top: 100px;
 }
 
-.formulario{
+.formulario_C{
     background: white;
     margin-top: 100px;
 }
 
-h1{
+.h1_C{
     padding-top: 20px;
     text-align: center;
     color: black;
@@ -76,26 +80,11 @@ p{
     }
 }
 
-h2{
+.h2_C{
     padding-top: 20px;
     text-align: center;
     color: black;
     font-size: 48px;
-}
-
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
-
-#contenedor {
-    width: 100%;
-}
-
-body{
-    padding-top: 95px;
-
 }
 
 /* ------------------------------------- */
