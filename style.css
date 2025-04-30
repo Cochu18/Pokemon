@@ -356,14 +356,14 @@ input[type="text"]{
 }
 .card .back{
     transform: perspective(600px) rotateY(180deg);
-    background: rgb(3, 35, 54);
+    background: rgb(255, 1, 1);
     padding: 15px;
     color: #f3f3f3;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     text-align: center;
-    box-shadow: 0px 5px 10px #000;
+    box-shadow: 0px 5px 10px rgb(33, 90, 165);
 }
 .card .back .link{
     border-top: 1px solid #f3f3f3;
